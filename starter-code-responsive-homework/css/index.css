@@ -30,3 +30,28 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media only screen and (max-width : 814px){
+	.left {
+		display: block;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.right {
+		display: block;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.experience {
+		display: block;
+		width: 100%;
+		float: none;
+	}
+	h3 {
+		text-align: center;
+	}
+}
