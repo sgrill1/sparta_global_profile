@@ -18,3 +18,19 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media only screen and (max-width : 1200px){
+  .tile {
+    float: none;
+    text-align: center;
+    width: 100%;
+    display: block
+  }
+
+#headshot {
+  align-content: center;
+}
+  .projects {
+    align-content: center;
+  }
+}
