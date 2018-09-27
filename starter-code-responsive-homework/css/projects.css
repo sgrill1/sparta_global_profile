@@ -17,6 +17,7 @@
 .tile img	{
 	display: block;
 	margin: 0 auto;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width : 1200px){
@@ -24,7 +25,8 @@
     float: none;
     text-align: center;
     width: 100%;
-    display: block
+    display: block;
+    border-radius: 50%
   }
 
 #headshot {
@@ -34,6 +36,7 @@
   margin-right: auto;
   width: 50%;
   height: 50%;
+  padding-top: 5%;
 }
   .projects {
     float: none;
